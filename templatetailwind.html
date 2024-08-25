@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="container overflow-x-hidden">
+    <div class="bar m-['auto'] w-28 h-full fixed bg-neutral-800 text-white">
+      <ul class="">
+        <li>
+          <div class=" h-28 bg-contain bg-center bg-[url('https://www.w3schools.com/w3images/avatar_smoke.jpg')]">
+          </div>
+        </li>
+        <li class="">
+          <div class="home h-24 bg-black text-center place-content-center flex flex-col hover:bg-neutral-200 " ><!--fill-current text-black-->
+            <i class="fa-solid fa-house-chimney"></i>
+            <a class="" aria-current="page" href="#home">Home</a>
+          </div>
+        </li>
+          <div class="home h-24 text-center place-content-center flex flex-col hover:bg-black" >
+          <i class="fa-solid fa-user-large"></i>
+          <a class="" href="#about">about</a>
+          </div>
+        </li>
+        <li class="h-24">
+          <div class="home h-24 text-center place-content-center flex flex-col hover:bg-black" >
+          <i class="fa-solid fa-eye"></i>
+          <a class="" href="#photo">photo</a>
+          </div>
+        </li>
+        <li class="h-24">
+          <div class="home h-24 text-center place-content-center flex flex-col hover:bg-black" >
+          <i class="fa-solid fa-envelope"></i>
+          <a class="" href="#contact">contact</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="body pl-36 pt-12 pr-8 bg-black text-white w-screen">
+      <div id="home">
+        <h1 class="text-center text-7xl font-normal p-6 ">I'm John Doe.</h1>
+        <p class="text-center p-2">Photographer and Web Designer.</p>
+        <img
+          src="https://www.w3schools.com/w3images/man_smoke.jpg"
+          alt="john photo"
+        />
+      </div>
+      <div class="about-section">
+        <div id="about" class="my-name">
+         <h2 class="w-48 text-4xl pb-6 border-neutral-500 border-b-2">My Name</h2>
+         <p class="pt-6 text-neutral-500">
+          Some text about me. Some text about me. I am lorem ipsum consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         </p>
+        </div>
+        <div class="my-skills">
+          <h3 class="text-2xl py-6">My Skills</h3>
+          <p class="text-lg py-4 text-neutral-500">Photograghy</p>
+          <div class="bg-white h-7">
+            <div class="w-11/12 h-7 bg-neutral-500"></div>
+          </div>
+          <p class="text-lg py-4 text-neutral-500">Web Design</p>
+          <div class="bg-white h-7">
+            <div class="w-10/12 h-7 bg-neutral-500"></div>
+          </div>
+          <p class="text-lg py-4 text-neutral-500">Photoshop</p>
+          <div class="bg-white h-7">
+            <div class="w-9/12 h-7 bg-neutral-500"></div>
+          </div>
+          <div class="my-7 py-7 bg-white text-black flex justify-center items-center justify-around  ">
+            <div class=" flex flex-col" >
+              <p class="text-2xl text-center">11+</p>
+              <p class="text-center">Partener</p>
+            </div>
+            <div class="flex flex-col">
+              <p class="text-2xl text-center">55+</p>
+              <p class="text-center">Projects Done</p>
+            </div>
+            <div class=" flex flex-col">
+              <p class="text-2xl text-center ">89+</p>
+              <p class="text-center">Happy Clients</p>
+            </div>
+            <div class=" flex flex-col">
+              <p class="text-2xl text-center">150+</p>
+              <p class="text-center">Meetings</p>
+            </div>
+          </div>
+          <button class="bg-white text-black px-7 py-4 mb-7" type="button">
+            <i class="fa-solid fa-download"></i>
+            Download Resume</button>
+        </div>
+        <div class="my-price">
+          <h3 class="text-2xl py-6">My Price</h3>
+          <div class="flex flex-wrap gap-4 bg-red"><!-- اخليه ياخد العرض كله بالنص واخليه hover opacity-->
+           <div class="">
+            <table class="text-center w-[21rem]">
+              <thead >
+                <tr class="bg-neutral-500 h-28">
+                  <th class="text-3xl">Basic</th>
+                </tr>
+              </thead>
+              <tbody class="text-black bg-white">
+                <tr class="h-14">
+                  <td class="p-4">Web Design</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4">Photography</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4">5GB Storage</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4">Mail Support</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4"><p class="text-3xl">$ 10</p>
+                    <p class="text-neutral-500">per month</p></td>
+                </tr>
+                <tr class="h-14">
+                  <td class="bg-neutral-200 p-4">
+                    <button type="button" class="bg-white p-4">Sign Up</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+           <div>
+            <table class="text-center  w-[21rem]">
+              <thead>
+                <tr class="bg-neutral-500 h-28">
+                  <th class="text-3xl">Pro</th>
+                </tr>
+              </thead>
+              <tbody class="text-black bg-white">
+                <tr class="h-14">
+                  <td class="p-4">Web Design</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4">Photography</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4">50GB Storage</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4">Endless Support</td>
+                </tr>
+                <tr class="h-14">
+                  <td class="p-4"><p class="text-3xl">$ 25</p>
+                    <p class="text-neutral-500">per month</p></td>
+                </tr>
+                <tr class="h-14">
+                  <td class="bg-neutral-200 p-4">
+                    <button type="button" class="bg-white p-4 ">Sign Up</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+          </div>
+        </div>
+        <div class="My-Reputation flex flex-col">
+          <h4 class="text-2xl py-6">My Reputation</h4>
+          <div class="flex flex-col">
+            <div class="flex py-3">
+             <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Chris Fox photo" class="rounded-full w-20">
+             <div class="pragragh m-4 text-neutral-500">
+               <p><span class="mr-3">Chris Fox.</span> CEO at Mighty Schools.</p>
+               <p>John Doe saved us from a web disaster.</p>
+              </div>
+           </div>
+           <div class="flex py-3">
+             <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Rebecca Flex photo"class="rounded-full w-20">
+             <div class="pragragh m-4 text-neutral-500">
+               <p><span class="mr-3">Rebecca Fox.</span> CEO at  Company.</p>
+               <p>No one is better than John Doe</p>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="photos">
+        <h5 class="w-48 text-4xl pb-6 mt-24 border-neutral-500 border-b-2 mb-4">My Photos</h5>
+        <!--
+        <div class="photo flex flex-col">
+          <div class=" w-56"></div>
+            <div class="bg-[url('https://www.w3schools.com/w3images/wedding.jpg')]  h-52 w-full bg-contain bg-no-repeat">
+            <div class="bg-[url('https://www.w3schools.com/w3images/rocks.jpg ')]  h-52 w-full bg-contain bg-no-repeat">
+            <div class="bg-[url('https://www.w3schools.com/w3images/sailboat.jpg ')]  h-52 w-full bg-contain bg-no-repeat">
+          </div>
+          <div class="w-60">
+           <div class="bg-[url('https://www.w3schools.com/w3images/underwater.jpg')] h-52 w-full bg-contain bg-no-repeat "></div>
+           <div class="bg-[url('https://www.w3schools.com/w3images/chef.jpg')] h-52 w-full bg-contain bg-no-repeat"></div>
+           <div class="bg-[url('https://www.w3schools.com/w3images/wedding.jpg')] h-52 w-full bg-contain bg-no-repeat"></div>
+           <div class="bg-[url('https://www.w3schools.com/w3images/p6.jpg')] h-52 w-full bg-contain bg-no-repeat"></div>
+          </div>
+        </div>
+          -->
+      </div>
+      <div id="contact" class="w-full pb-52">
+        <h6 class="w-48 text-4xl pb-6 mt-24 border-neutral-500 border-b-2 mb-4">Contact Me</h6>
+        <div class="w-52 h-52 mx-2">
+          <p class="py-4 text-neutral-500"><i class="fa-solid fa-location-dot mr-3 text-white"></i> Chicago, US</p>
+          <p class="py-4 text-neutral-500"> <i class="fa-solid fa-phone mr-3 text-white"></i>Phone: +00 151515</p>
+          <p class="py-4 text-neutral-500"><i class="fa-solid fa-envelope mr-3 text-white"></i>Email: mail@mail.com</p>
+        </div>
+        <form class="w-full">
+          <p class="py-2 text-neutral-500">Let's get in touch. Send me a message:</p>
+          <div class="my-4">
+            <input type="email" class="form-control p-2 w-full" id="inputEmail4" placeholder="Name">
+          </div>
+          <div class="my-4">
+            <input type="password" class="form-control p-2 w-full" id="inputPassword4"placeholder="Email">
+          </div>
+          <div class="my-4">
+            
+            <input type="text" class="form-control p-2 w-full" id="inputAddress" placeholder="Subject">
+          </div>
+          <div class="my-4">
+            <input type="text" class="form-control p-2 w-full" id="inputAddress2" placeholder="Messege">
+          </div>
+          <div class="my-4">
+            <button type="submit" class="btn btn-primary text-black bg-white py-2 px-4"><i class="fa-solid fa-paper-plane"></i>SEND MESSEGE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
